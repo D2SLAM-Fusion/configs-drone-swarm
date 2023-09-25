@@ -11,7 +11,7 @@ cnn_tensorrt_prebuild_engine: ""
 cam_calib_file_path: "./fisheye_parameters.yaml"
 enable_texture: true
 
-# network size 
+# network size
 width: 320
 height: 240
 pixel_step: 2
@@ -33,7 +33,7 @@ stereos:
   #   #means 0_1 camera pair with 1_0 camera pair
   #   stereo_config: "./stereo_calib_0_1_240_320.yaml"
   # stereo2_1:
-  #   cam_idx_l: 1 
+  #   cam_idx_l: 1
   #   cam_idx_r: 2
   #   idx_l: 1
   #   idx_r: 0
